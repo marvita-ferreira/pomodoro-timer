@@ -1,25 +1,40 @@
-# pomodoro-timer
+# Coffee-Break: Pomodoro Timer
 
-Este projeto implementa um **temporizador Pomodoro** simples em C++. Ele inclui:
-- **Versão Original**: Um timer funcional com exibição no terminal.
-- **Versão Melhorada**: Código modularizado com entradas personalizadas.
+## 1. Protótipo
 
-## Estrutura do Repositório
-- `original/`: Contém o código original.
-- `improved/`: Contém o código melhorado.
-- `README.md`: Documentação do projeto.
+### Demonstração
+- **Imagem/GIF** do projeto (caso aplicável).
+- **Link para vídeo** demonstrativo (YouTube, Loom, etc.).
+- **Link para versão online** (caso seja um app web).
 
-## Melhorias Feitas
-1. **Modularização**:
-   - Funções separadas para contagem regressiva e configuração.
-2. **Entrada Personalizada**:
-   - O usuário pode configurar tempos de trabalho e pausas.
-3. **Tratamento de Erros**:
-   - Usa valores padrão caso a entrada seja inválida.
+### Como Executar
+Passo a passo para rodar o projeto localmente, incluindo comandos de instalação e execução.
 
-## Como Compilar e Executar
-### Compilar:
-No terminal, execute:
 ```bash
-g++ -o pomodoro original/pomodoro_original.cpp
-./pomodoro
+# Exemplo de instalação
+git clone https://github.com/seu-usuario/seu-projeto.git
+cd seu-projeto
+npm install  # ou equivalente para sua stack
+npm start    # comando para rodar
+```
+
+---
+
+## 2. Introdução
+
+**Descrição:** Este projeto busca realizar um 
+
+**Tecnologias:** C++.
+
+---
+
+## 3. Documentação
+
+### Histórico e Versões
+
+| Versão | Data | Melhorias e Alterações |
+|--------|------|------------------------|
+| 1.0.0  | 26/01/2025 | Versão inicial |
+
+### Contribuição
+Qualquer contribuição é bem vinda, seja em conhecimento, doações ou sugestões para aprimorar o projeto.
