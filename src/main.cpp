@@ -1,18 +1,20 @@
 #include "pomodoro.h"
 #include <iostream>
 
+using namespace std;  // Adicionando isso para evitar o uso de std:: em todo o código
+
 int main() {
     int workMinutes;
 
-    std::cout << "Digite o tempo de trabalho (minutos): ";
-    std::cin >> workMinutes;
+    cout << "Digite o tempo de trabalho (minutos): ";
+    cin >> workMinutes;
 
     if (workMinutes <= 0) {
-        std::cout << "O tempo deve ser maior que zero. Tente novamente.\n";
+        cout << "O tempo de trabalho deve ser maior que zero. Tente novamente.\n";
         return 1;
     }
 
-    Pomodoro pomodoro(workMinutes);
+    Pomodoro pomodoro(workMinutes * 60);  // Convertendo para segundos
     pomodoro.startSession();
 
     return 0;

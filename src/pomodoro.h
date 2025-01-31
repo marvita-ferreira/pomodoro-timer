@@ -15,6 +15,7 @@ private:
     int sessionCount;
 
     void countdown(int sec, const std::string &message);
+    void printProgress(int sec, const std::string &message);
 };
 
 #endif
