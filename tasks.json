@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar e rodar SDL3 + ImGui",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "src/main.cpp",
+                "-I", "C:/SDL3/include",
+                "-I", "C:/imgui",
+                "-I", "C:/imgui/backends",
+                "-L", "C:/SDL3/lib",
+                "-lSDL3",
+                "-lSDL3main",
+                "-o", "MeuJogo.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
